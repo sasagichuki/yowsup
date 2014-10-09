@@ -1,0 +1,14 @@
+body {
+  background-color: #e8694b;
+  /*height: 500px;*/
+}
+
+.under{
+  text-align: center;
+  margin: 20% 0;
+  height: 300px;
+}
+
+.under h3{
+  color: #FFF;
+}
