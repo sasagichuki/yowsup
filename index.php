@@ -1,3 +1,4 @@
+<?php include "sitecake/server/sitecake_entry.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nkemi Consulting</title>
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet" >
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/queries.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/flexslider.css" rel="stylesheet" >
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/queries.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -48,7 +49,7 @@
               </div>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h1 class="animated f  adeInDown">NKEMI<span>CONSULTING</span></h1>
+                  <div class="animated fadeInDown"><img src="img/nkemilogo.png" alt=""></div>
                   <p class="animated fadeInUp delay-05s">Need ground breaking strategy?<em>Come to us</em></p>
                 </div>
               </div>
@@ -63,9 +64,12 @@
         <section class="intro text-center section-padding" id="intro">
           <div class="container">
             <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
+              <div class="col-md-8 col-md-offset-2 wp1 sc-content-editable">
                 <h1 class="arrow">In a nutshell</h1>
-                <p>Sed a lorem quis neque interdum <a href="#">consequat ut sed sem</a>. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                <p>Sed a lorem quis neque interdum <a href="#">consequat ut sed sem</a>. 
+                Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla.
+                Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
               </div>
             </div>
           </div>
@@ -255,7 +259,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <h1 class="arrow">We're a team that adores what we do</h1>
+                <h1 class="arrow">We're a team that Loves what we do</h1>
               </div>
             </div>
             <div class="row">
@@ -264,9 +268,10 @@
                   <ul class="slides">
                     <li>
                       <div class="col-md-4 wp5">
-                        <img src="img/team-01.png" alt="Team Member">
+                        <img src="img/carol.png" alt="Team Member">
                         <h2>Caroline Mbui</h2>
-                        <p>Brand, Marketing & Communication Consultant. I love Africa</p>
+                        <h3>Managing & Strategy Director</h3>
+                        <p>Brand, Marketing & Communication Consultant. I love Africa. She oversees all aspects of the charity’s domestic and international fundraising efforts. She is also responsible for overall brand identity</p>
                         <div class="social">
                           <ul class="social-buttons">
                             <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
@@ -275,11 +280,11 @@
                           </ul>
                         </div>
                       </div>
-
                       <div class="col-md-4 wp5 delay-05s">
-                        <img src="img/team-02.png" alt="Team Member">
-                        <h2>Cersei Lannister</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        <img src="img/gitahi.png" alt="Team Member">
+                        <h2>Githinji Gitahi</h2>
+                        <h3>Managing Director</h3>
+                        <p>Before joining the pharmaceutical industry, he worked as a Head of Medical Quality in a Health Maintenance Organization where he also practiced as a General Practitioner.</p>
                         <div class="social">
                           <ul class="social-buttons">
                             <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
@@ -289,9 +294,10 @@
                         </div>
                       </div>
                       <div class="col-md-4 wp5 delay-1s">
-                        <img src="img/team-03.png" alt="Team Member">
-                        <h2>Jamie Lannister</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        <img src="img/mark.png" alt="Team Member">
+                        <h2>Mark Ngoloma</h2>
+                        <h3>Marketing Assistant</h3>
+                        <p>He was a founding member of the Hydrocephalus and Spina Bifida Foundation in Kenya, which offers free surgeries for children suffering from Hydrocephalus.</p>
                         <div class="social">
                           <ul class="social-buttons">
                             <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
@@ -301,11 +307,12 @@
                         </div>
                       </div>
                     </li>
-                    <!-- <li>
+                    <li>
                       <div class="col-md-4 wp5">
-                        <img src="img/team-01.png" alt="Team Member">
-                        <h2>Jon Snow</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        <img src="img/melissa.png" alt="Team Member">
+                        <h2>Melissa Misio</h2>
+                        <h3>Project Manager</h3>
+                        <p>She oversees the charity’s mission and day-to-day operations after almost twenty years in operational roles, bringing a vast network and experiences to the team..</p>
                         <div class="social">
                           <ul class="social-buttons">
                             <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
@@ -315,9 +322,10 @@
                         </div>
                       </div>
                       <div class="col-md-4 wp5 delay-05s">
-                        <img src="img/team-02.png" alt="Team Member">
-                        <h2>Cersei Lannister</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        <img src="img/ali.png" alt="Team Member">
+                        <h2>Ali Mohammed</h2>
+                        <h3>Operations Manager</h3>
+                        <p>He manages the organization’s relationships with over 3 million donors who support Smile Train. He is also responsible for all community fundraising events and for managing the processing and telemarketing centers.</p>
                         <div class="social">
                           <ul class="social-buttons">
                             <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
@@ -327,9 +335,10 @@
                         </div>
                       </div>
                       <div class="col-md-4 wp5 delay-1s">
-                        <img src="img/team-03.png" alt="Team Member">
-                        <h2>Jamie Lannister</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        <img src="img/jossy.png" alt="Team Member">
+                        <h2>Jossy Gicharu</h2>
+                        <h3>Account Executive</h3>
+                        <p>She oversees all aspects of the charity’s domestic and international fundraising efforts. She is also responsible for Smile Train’s overall brand identity, digital footprint and global PR initiatives.</p>
                         <div class="social">
                           <ul class="social-buttons">
                             <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
@@ -338,7 +347,7 @@
                           </ul>
                         </div>
                       </div>
-                    </li> -->
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -356,7 +365,7 @@
         </section> -->
         <section class="dark-bg text-center section-padding contact-wrap" id="contact">
           <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-         <!--  <div class="container">
+          <!--  <div class="container">
             <div class="row">
               <div class="col-md-12">
                 <h1 class="arrow">Drop us a line</h1>
@@ -366,13 +375,13 @@
               <div class="col-md-4">
                 <div class="light-box box-hover">
                   <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-                  <p>Denis Prit Rd. State House</p>
+                  <p>The Hub Westlands, Off Waiyaki Way</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="light-box box-hover">
                   <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p>+254722123456</p>
+                  <p>+254 722 393 913</p>
                 </div>
               </div>
               <div class="col-md-4">
