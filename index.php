@@ -12,7 +12,7 @@
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/queries.css" rel="stylesheet">
         <link href="css/animate.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -23,7 +23,7 @@
       <body id="top">
         <header id="home">
           <nav>
-            <div class="container-fluid">
+            <div class="container-fluid ">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
                   <nav class="pull">
@@ -41,19 +41,19 @@
             </div>
           </nav>
           <section class="hero" id="hero">
-            <div class="container">
+            <div class="container ">
               <div class="row">
                 <div class="col-md-12 text-right navicon">
                   <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
                 </div>
               </div>
-              <div class="row">
+              <div class="row ">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <div class="logo-pad animated fadeInDown"><img src="img/nkemilogo.png" alt=""></div>
-                  <h2 class="tagline animated fadeInUp delay-05s">Need ground breaking strategy?<em>Come to us</em></h2>
+                  <div class="logo-pad animated"><img src="img/nkemilogo.png" alt=""></div>
+                  <h2 class="tagline animated delay-05s">Need ground breaking strategy?<em>Come to us</em></h2>
                 </div>
               </div>
-              <div class="row">
+              <div class="row ">
                 <!-- <div class="col-md-6 col-md-offset-3 text-center">
                   <a href="#" class="learn-more-btn">Get in touch</a>
                 </div> -->
@@ -61,18 +61,18 @@
             </div>
           </section>
         </header>
-        <section class="intro text-center section-padding" id="intro">
-          <div class="container">
+        <section class="intro text-center section-padding " id="intro">
+          <div class="container ">
             <div class="row">
               <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow sc-content-editable">In a nutshell</h1>
-                <p class="sc-content-editable"> 
+                <h1 class="arrow">In a nutshell</h1>
+                <p class="">
                 Nkemi is an African for Africa marketing consulting agency whose philosophy is entrenched in understanding client needs, deep understanding of the customer and working together with the client to deliver growth expectations.</p>
               </div>
             </div>
           </div>
         </section>
-        <section class="sc-content-editable features text-center section-padding" id="features">
+        <section class=" features text-center section-padding" id="features">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -82,7 +82,7 @@
                     <div class="icon">
                       <i class="fa fa-laptop shadow"></i>
                     </div>
-                    <h2>Research</h2>
+                    <h2>Brand strategy and planning</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
                     primis in faucibus.</p>
                   </div>
@@ -90,7 +90,7 @@
                     <div class="icon">
                       <i class="fa fa-code shadow"></i>
                     </div>
-                    <h2>Strategy</h2>
+                    <h2>Marketing strategy and plan</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
                     primis in faucibus.</p>
                   </div>
@@ -98,7 +98,7 @@
                     <div class="icon">
                       <i class="fa fa-heart shadow"></i>
                     </div>
-                    <h2>Execution</h2>
+                    <h2>Another One</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
                     primis in faucibus.</p>
                   </div>
@@ -142,7 +142,7 @@
             </div>
           </div>
         </section> -->
-        <section class="swag text-center">
+        <section class="swag text-center ">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
@@ -152,8 +152,8 @@
             </div>
           </div>
         </section>
-        <section class="portfolio text-center section-padding" id="portfolio">
-          <div class="container">
+        <section class="portfolio text-center section-padding " id="portfolio">
+          <!-- <div class="container">
             <div class="row">
               <div id="portfolioSlider">
                 <ul class="slides">
@@ -242,9 +242,9 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> -->
         </section>
-        <div class="ignite-cta text-center">
+        <div class=" ignite-cta text-center">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -253,7 +253,7 @@
             </div>
           </div>
         </div>
-        <section class="team text-center section-padding" id="team">
+        <section class=" team text-center section-padding" id="team">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -321,7 +321,7 @@
                       </div>
                       <div class="col-md-4 wp5 delay-05s">
                         <img src="img/ali.png" alt="Team Member">
-                        <h2>Ali Mohammed</h2>
+                        <h2>Mahmoud Ali</h2>
                         <h3>Operations Manager</h3>
                         <p>He manages the organization’s relationships with over 3 million donors who support Smile Train. He is also responsible for all community fundraising events and for managing the processing and telemarketing centers.</p>
                         <div class="social">
@@ -332,7 +332,7 @@
                           </ul>
                         </div>
                       </div>
-                      <div class="col-md-4 wp5 delay-1s">
+                      <!-- <div class="col-md-4 wp5 delay-1s">
                         <img src="img/jossy.png" alt="Team Member">
                         <h2>Jossy Gicharu</h2>
                         <h3>Account Executive</h3>
@@ -344,7 +344,7 @@
                             <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                           </ul>
                         </div>
-                      </div>
+                      </div> -->
                     </li>
                   </ul>
                 </div>
@@ -361,7 +361,7 @@
             </form>
           </div>
         </section> -->
-        <section class="dark-bg text-center section-padding contact-wrap" id="contact">
+        <section class="  dark-bg text-center section-padding contact-wrap" id="contact">
           <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
           <!--  <div class="container">
             <div class="row">
@@ -392,7 +392,7 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="social-buttons">
-                  <li><a href="#" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                 </ul>
@@ -401,16 +401,16 @@
           </div>
         </section>
         <footer>
-          <div class="container">
+          <div class=" container">
             <div class="row">
               <div class="col-md-6">
                 <ul class="legals">
-                  <li><a href="#">Terms &amp; Conditions</a></li>
-                  <li><a href="#">Legals</a></li>
+                  <li>Copyright  - Nkemi consulting</li>
+                  <!-- <li><a href="#">Legals</a></li> -->
                 </ul>
               </div>
               <div class="col-md-6 credit">
-                <p>Designed &amp; Developed by <a href="http://www.chaos.co.ke/">Another Person</a></p>
+                <p>Designed &amp; Developed by <a href="http://www.chaos.co.ke/">Studio Chaos</a></p>
               </div>
             </div>
           </div>
