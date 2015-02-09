@@ -1,3 +1,5 @@
+<?php require_once( 'nkemi-admin/cms.php' ); ?>
+<cms:template title='Home Page' />
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,6 +23,7 @@
         <![endif]-->
       </head>
       <body id="top">
+      <cms:editable name='main_content' type='richtext'>
         <header id="home">
           <nav>
             <div class="container-fluid ">
@@ -425,3 +428,5 @@
         <script src="js/modernizr.js"></script>
       </body>
     </html>
+    </cms:editable>
+<?php COUCH::invoke(); ?>
