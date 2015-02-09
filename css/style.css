@@ -12,3 +12,15 @@ body {
 .under h3{
   color: #FFF;
 }
+
+.inner > .tagline {
+	color: #fff;
+}
+
+.features-wrapper p {
+	color: #fff;
+}
+
+p {
+	color: #fff;
+}

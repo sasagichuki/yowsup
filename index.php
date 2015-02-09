@@ -1,4 +1,3 @@
-<?php include "sitecake/server/sitecake_entry.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,6 +12,7 @@
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/queries.css" rel="stylesheet">
         <link href="css/animate.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -49,14 +49,14 @@
               </div>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <div class="animated fadeInDown"><img src="img/nkemilogo.png" alt=""></div>
-                  <p class="animated fadeInUp delay-05s">Need ground breaking strategy?<em>Come to us</em></p>
+                  <div class="logo-pad animated fadeInDown"><img src="img/nkemilogo.png" alt=""></div>
+                  <h2 class="tagline animated fadeInUp delay-05s">Need ground breaking strategy?<em>Come to us</em></h2>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
+                <!-- <div class="col-md-6 col-md-offset-3 text-center">
                   <a href="#" class="learn-more-btn">Get in touch</a>
-                </div>
+                </div> -->
               </div>
             </div>
           </section>
@@ -64,17 +64,15 @@
         <section class="intro text-center section-padding" id="intro">
           <div class="container">
             <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1 sc-content-editable">
-                <h1 class="arrow">In a nutshell</h1>
-                <p>Sed a lorem quis neque interdum <a href="#">consequat ut sed sem</a>. 
-                Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla.
-                Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow sc-content-editable">In a nutshell</h1>
+                <p class="sc-content-editable"> 
+                Nkemi is an African for Africa marketing consulting agency whose philosophy is entrenched in understanding client needs, deep understanding of the customer and working together with the client to deliver growth expectations.</p>
               </div>
             </div>
           </div>
         </section>
-        <section class="features text-center section-padding" id="features">
+        <section class="sc-content-editable features text-center section-padding" id="features">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
