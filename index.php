@@ -14,7 +14,7 @@
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/queries.css" rel="stylesheet">
         <link href="css/animate.css" rel="stylesheet">
-        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <link href="css/style.css" rel="stylesheet">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -55,7 +55,7 @@
                 <div class="col-md-8 col-md-offset-2 text-center inner">
                   <div class="logo-pad animated"><img src="img/nkemilogo.png" alt=""></div>
                   <cms:editable name='tag_line' type='richtext'>
-                    <h2 class="tagline animated delay-05s">Need ground breaking strategy?<em>Come to us</em></h2>
+                    <!-- <h2 class="tagline animated delay-05s">Need ground breaking strategy?<em>Come to us</em></h2> -->
                   </cms:editable>
                 </div>
               </div>
@@ -171,7 +171,8 @@
           </div>
         </section>
         <section class="portfolio text-center section-padding " id="portfolio">
-          <div class="container">
+        <h1 class="arrow">Some of our work</h1>
+          <div class="container main_container">
             <div class="row">
               <div id="portfolioSlider">
                 <ul class="slides">
@@ -186,8 +187,10 @@
                           </div>
                         </div>
                       </div>
-                      <h2>Creative Minds</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      <cms:editable name='portfolio_1' type='richtext'>
+                        <h2>Creative Minds</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      </cms:editable>
                     </div>
                     <div class="col-md-4 wp4 delay-05s">
                       <div class="overlay-effect effects clearfix">
@@ -199,8 +202,10 @@
                           </div>
                         </div>
                       </div>
-                      <h2>Creative Hearts</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      <cms:editable name='portfolio_2' type='richtext'>  
+                        <h2>Creative Hearts</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      </cms:editable>
                     </div>
                     <div class="col-md-4 wp4 delay-1s">
                       <div class="overlay-effect effects clearfix">
@@ -212,8 +217,10 @@
                           </div>
                         </div>
                       </div>
-                      <h2>Creative Ideas</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      <cms:editable name='portfolio_3' type='richtext'>
+                        <h2>Creative Ideas</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      </cms:editable>
                     </div>
                   </li>
                   <li>
@@ -227,8 +234,10 @@
                           </div>
                         </div>
                       </div>
-                      <h2>Creative Minds</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      <cms:editable name='portfolio_4' type='richtext'>
+                        <h2>Creative Minds</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      </cms:editable>
                     </div>
                     <div class="col-md-4 wp4 delay-05s">
                       <div class="overlay-effect effects clearfix">
@@ -240,8 +249,10 @@
                           </div>
                         </div>
                       </div>
-                      <h2>Creative Hearts</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      <cms:editable name='portfolio_5' type='richtext'>
+                        <h2>Creative Hearts</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      </cms:editable>
                     </div>
                     <div class="col-md-4 wp4 delay-1s">
                       <div class="overlay-effect effects clearfix">
@@ -253,8 +264,10 @@
                           </div>
                         </div>
                       </div>
-                      <h2>Creative Ideas</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      <cms:editable name='portfolio_6' type='richtext'>
+                        <h2>Creative Ideas</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      </cms:editable>
                     </div>
                   </li>
                 </ul>

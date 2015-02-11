@@ -1,5 +1,5 @@
 body {
-  background-color: #e8694b;
+  /*background-color: #e8694b;*/
   /*height: 500px;*/
 }
 
@@ -17,14 +17,15 @@ body {
 	color: #fff;
 }
 
+.portfolio > .main_container{
+  margin-top: 70px;
+}
+/*
 .features-wrapper p {
 	color: #fff;
 }
 
 p {
 	color: #fff;
-}
+}*/
 
-.contact-details h2{
-	color: #
-}
