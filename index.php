@@ -23,12 +23,12 @@
         <![endif]-->
       </head>
       <body id="top">
-      <cms:editable name='main_content' type='richtext'>
         <header id="home">
           <nav>
             <div class="container-fluid ">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                <cms:editable name='menu' type='richtext'>
                   <nav class="pull">
                     <ul class="top-nav">
                       <li><a href="#intro">About Nkemi <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
@@ -39,6 +39,7 @@
                       <li><a href="#contact">Get in Touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                     </ul>
                   </nav>
+                </cms:editable>
                 </div>
               </div>
             </div>
@@ -53,7 +54,9 @@
               <div class="row ">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
                   <div class="logo-pad animated"><img src="img/nkemilogo.png" alt=""></div>
-                  <h2 class="tagline animated delay-05s">Need ground breaking strategy?<em>Come to us</em></h2>
+                  <cms:editable name='tag_line' type='richtext'>
+                    <h2 class="tagline animated delay-05s">Need ground breaking strategy?<em>Come to us</em></h2>
+                  </cms:editable>
                 </div>
               </div>
               <div class="row ">
@@ -67,11 +70,13 @@
         <section class="intro text-center section-padding " id="intro">
           <div class="container ">
             <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">In a nutshell</h1>
-                <p class="">
-                Nkemi is an African for Africa marketing consulting agency whose philosophy is entrenched in understanding client needs, deep understanding of the customer and working together with the client to deliver growth expectations.</p>
-              </div>
+              <cms:editable name='description' type='richtext'>
+                <div class="col-md-8 col-md-offset-2 wp1">
+                  <h1 class="arrow">In a nutshell</h1>
+                  <p class="">
+                  Nkemi is an African for Africa marketing consulting agency whose philosophy is entrenched in understanding client needs, deep understanding of the customer and working together with the client to deliver growth expectations.</p>
+                </div>
+              </cms:editable>
             </div>
           </div>
         </section>
@@ -79,31 +84,39 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <h1 class="arrow">What we can do for you</h1>
+                <cms:editable name='section_title' type='richtext'>
+                  <h1 class="arrow">What we can do for you</h1>
+                </cms:editable>
                 <div class="features-wrapper">
                   <div class="col-md-4 wp2">
                     <div class="icon">
                       <i class="fa fa-laptop shadow"></i>
                     </div>
-                    <h2>Brand strategy and planning</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p>
+                      <cms:editable name='section_content_1' type='richtext'>
+                        <h2>Brand strategy and planning</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
+                        primis in faucibus.</p>
+                      </cms:editable>
                   </div>
                   <div class="col-md-4 wp2 delay-05s">
                     <div class="icon">
                       <i class="fa fa-code shadow"></i>
                     </div>
-                    <h2>Marketing strategy and plan</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p>
+                    <cms:editable name='section_content_2' type='richtext'>
+                        <h2>Brand strategy and planning</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
+                        primis in faucibus.</p>
+                    </cms:editable>
                   </div>
                   <div class="col-md-4 wp2 delay-1s">
                     <div class="icon">
                       <i class="fa fa-heart shadow"></i>
                     </div>
-                    <h2>Another One</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p>
+                    <cms:editable name='section_content_3' type='richtext'>
+                        <h2>Brand strategy and planning</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
+                        primis in faucibus.</p>
+                    </cms:editable>
                   </div>
                   <div class="clearfix"></div>
                 </div>
@@ -149,14 +162,16 @@
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
-                <h1> " Nkemi has delivered "<span> Aman Mohammed <em> Marketing Director </em> Example Company</span></h1>
+                <cms:editable name='client_quote' type='richtext'>
+                  <h1> " Nkemi has delivered "<span> Aman Mohammed <em> Marketing Director </em> Example Company</span></h1>
+                </cms:editable>
                 <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
               </div>
             </div>
           </div>
         </section>
         <section class="portfolio text-center section-padding " id="portfolio">
-          <!-- <div class="container">
+          <div class="container">
             <div class="row">
               <div id="portfolioSlider">
                 <ul class="slides">
@@ -245,112 +260,107 @@
                 </ul>
               </div>
             </div>
-          </div> -->
+          </div>
         </section>
         <div class=" ignite-cta text-center">
           <div class="container">
             <div class="row">
-              <div class="col-md-12">
-                <p href="#" class="ignite-btn">Meet our Team</p>
-              </div>
+              <cms:editable name='our_team' type='richtext'>
+                <div class="col-md-12">
+                  <p href="#" class="ignite-btn">Meet our Team</p>
+                </div>
+              </cms:editable>
             </div>
           </div>
         </div>
         <section class=" team text-center section-padding" id="team">
           <div class="container">
             <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">We're a team that Loves what we do</h1>
-              </div>
+              <cms:editable name='team_title' type='richtext'>
+                <div class="col-md-12">
+                  <h1 class="arrow">We're a team that Loves what we do</h1>
+                </div>
+              </cms:editable>
             </div>
             <div class="row">
               <div class="team-wrapper">
-                <div id="teamSlider">
-                  <ul class="slides">
-                    <li>
-                      <div class="col-md-4 wp5">
-                        <img src="img/carol.png" alt="Team Member">
-                        <h2>Caroline Mbui</h2>
-                        <h3>Managing & Strategy Director</h3>
-                        <p>Brand, Marketing & Communication Consultant. I love Africa. She oversees all aspects of the charity’s domestic and international fundraising efforts. She is also responsible for overall brand identity</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                            <li><a href="https://twitter.com/JustDes" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="http://ke.linkedin.com/in/carolinekmbui" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
-                          </ul>
+                <cms:editable name='team_profiles' type='richtext'>
+                  <div id="teamSlider">
+                    <ul class="slides">
+                      <li>
+                        <div class="col-md-4 wp5">
+                          <img src="img/carol.png" alt="Team Member">
+                          <h2>Caroline Mbui</h2>
+                          <h3>Managing & Strategy Director</h3>
+                          <p>Brand, Marketing & Communication Consultant. I love Africa. She oversees all aspects of the charity’s domestic and international fundraising efforts. She is also responsible for overall brand identity</p>
+                          <div class="social">
+                            <ul class="social-buttons">
+                              <li><a href="mailto:caroline@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                              <li><a href="https://twitter.com/JustDes" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="http://ke.linkedin.com/in/carolinekmbui" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-05s">
-                        <img src="img/gitahi.png" alt="Team Member">
-                        <h2>Githinji Gitahi</h2>
-                        <h3>Managing Director</h3>
-                        <p>Before joining the pharmaceutical industry, he worked as a Head of Medical Quality in a Health Maintenance Organization where he also practiced as a General Practitioner.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
+                        <div class="col-md-4 wp5 delay-05s">
+                          <img src="img/gitahi.png" alt="Team Member">
+                          <h2>Dr. Githinji Gitahi</h2>
+                          <h3>Managing Director</h3>
+                          <p>Before joining the pharmaceutical industry, he worked as a Head of Medical Quality in a Health Maintenance Organization where he also practiced as a General Practitioner.</p>
+                          <div class="social">
+                            <ul class="social-buttons">
+                              <li><a href="mailto:githinji@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                              <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="#" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-1s">
-                        <img src="img/mark.png" alt="Team Member">
-                        <h2>Mark Ngoloma</h2>
-                        <h3>Marketing Assistant</h3>
-                        <p>He was a founding member of the Hydrocephalus and Spina Bifida Foundation in Kenya, which offers free surgeries for children suffering from Hydrocephalus.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
+                        <div class="col-md-4 wp5">
+                          <img src="img/melissa.png" alt="Team Member">
+                          <h2>Melissa Misio</h2>
+                          <h3>Project Manager</h3>
+                          <p>She oversees the charity’s mission and day-to-day operations after almost twenty years in operational roles, bringing a vast network and experiences to the team..</p>
+                          <div class="social">
+                            <ul class="social-buttons">
+                              <li><a href="mailto:melissa@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                              <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="#" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-4 wp5">
-                        <img src="img/melissa.png" alt="Team Member">
-                        <h2>Melissa Misio</h2>
-                        <h3>Project Manager</h3>
-                        <p>She oversees the charity’s mission and day-to-day operations after almost twenty years in operational roles, bringing a vast network and experiences to the team..</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
+                      </li>
+                      <li>
+                        <div class="col-md-4 wp5 delay-05s">
+                          <img src="img/ali.png" alt="Team Member">
+                          <h2>Mahmoud Ali</h2>
+                          <h3>Operations Manager</h3>
+                          <p>Mahmoud Ali handles the company’s administrative duties. Mahmoud is a big believer in hard work and discipline.
+Mahmoud is qualified in his field and holds a Bachelor’s degree in Business Information Technology from Jomo Kenyatta University Of Agriculture and Technology.
+.</p>
+                          <div class="social">
+                            <ul class="social-buttons">
+                              <li><a href="mailto:ali@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                              <li><a href="https://twitter.com/alimoud9" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="#" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-05s">
-                        <img src="img/ali.png" alt="Team Member">
-                        <h2>Mahmoud Ali</h2>
-                        <h3>Operations Manager</h3>
-                        <p>He manages the organization’s relationships with over 3 million donors who support Smile Train. He is also responsible for all community fundraising events and for managing the processing and telemarketing centers.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
+                        <div class="col-md-4 wp5 delay-1s">
+                          <img src="img/mark.png" alt="Team Member">
+                          <h2>Mark Ngoloma</h2>
+                          <h3>Marketing Executive</h3>
+                          <p>Mark's key strengths are strategic thinking, team work and ability to think on his feet. He previously worked for Mayfair insurance company as a marketing executive. He holds a Bachelor’s Degree in Commerce – Marketing option & is currently pursuing his Chartered Institute of Marketing (CIM) professional qualification.</p>
+                          <div class="social">
+                            <ul class="social-buttons">
+                              <li><a href="mailto:mark@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                              <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="#" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                      <!-- <div class="col-md-4 wp5 delay-1s">
-                        <img src="img/jossy.png" alt="Team Member">
-                        <h2>Jossy Gicharu</h2>
-                        <h3>Account Executive</h3>
-                        <p>She oversees all aspects of the charity’s domestic and international fundraising efforts. She is also responsible for Smile Train’s overall brand identity, digital footprint and global PR initiatives.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                          </ul>
-                        </div>
-                      </div> -->
-                    </li>
-                  </ul>
-                </div>
+                      </li>
+                    </ul>
+                  </div>
+                </cms:editable>  
               </div>
             </div>
           </div>
@@ -372,6 +382,7 @@
                 <h1 class="arrow">Drop us a line</h1>
               </div>
             </div> -->
+            <cms:editable name='contact_details' type='richtext'>
             <div class="row contact-details">
               <div class="col-md-4">
                 <div class="light-box box-hover">
@@ -392,12 +403,13 @@
                 </div>
               </div>
             </div>
+            </cms:editable>
             <div class="row">
               <div class="col-md-12">
                 <ul class="social-buttons">
-                  <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  <li><a href="https://www.facebook.com/pages/Nkemi-Consulting/1542642302637883?fref=nf" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/nkemic" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                  <!-- <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li> -->
                 </ul>
               </div>
             </div>
@@ -413,7 +425,7 @@
                 </ul>
               </div>
               <div class="col-md-6 credit">
-                <p>Designed &amp; Developed by <a href="http://www.chaos.co.ke/">Studio Chaos</a></p>
+                <p>By <a href="http://www.chaos.co.ke/">Studio Chaos</a></p>
               </div>
             </div>
           </div>
@@ -428,5 +440,5 @@
         <script src="js/modernizr.js"></script>
       </body>
     </html>
-    </cms:editable>
+    
 <?php COUCH::invoke(); ?>
