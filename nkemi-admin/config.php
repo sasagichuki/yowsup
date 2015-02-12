@@ -152,7 +152,7 @@
     // VERY IMPORTANT! 
     // Set the following to '1' ONLY IF YOU HAVE BOUGHT A COMMERCIAL LICENSE for the site you are using this file on.
     // Doing so otherwise is NOT PERMITTED and will constitute a violation of the CPAL license this software is provided under.
-    define( 'K_PAID_LICENSE', 1 );
+    define( 'K_PAID_LICENSE', 0 );
 
         // Rebranding. Uncomment the following defines and add your info.
         // 99a. Company Logo on light background  (Max. 171 x 64 pixels. Needs to be placed within 'couch/theme/images/' folder)
