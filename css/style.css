@@ -1,9 +1,5 @@
-body {
-  /*background-color: #e8694b;*/
-  /*height: 500px;*/
-}
-
 .under{
+  background-color: #e8694b;
   text-align: center;
   margin: 20% 0;
   height: 300px;

@@ -33,7 +33,6 @@
                     <ul class="top-nav">
                       <li><a href="#intro">About Nkemi <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                       <li><a href="#features">What we do <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#responsive">Our Clients <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                       <li><a href="#portfolio">Portfolio <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                       <li><a href="#team">Our Team <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                       <li><a href="#contact">Get in Touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
@@ -55,7 +54,7 @@
                 <div class="col-md-8 col-md-offset-2 text-center inner">
                   <div class="logo-pad animated"><img src="img/nkemilogo.png" alt=""></div>
                   <cms:editable name='tag_line' type='richtext'>
-                    <!-- <h2 class="tagline animated delay-05s">Need ground breaking strategy?<em>Come to us</em></h2> -->
+                    <h2 class="tagline delay-05s">Ground breaking strategy, World class execution.</h2>
                   </cms:editable>
                 </div>
               </div>
