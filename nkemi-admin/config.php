@@ -30,7 +30,7 @@
     // -4.5   Venezuela (UTC-04:30)
     // -6     United States (Central Time) (UTC-06:00)
     // -8     United States (Pacific Time) (UTC-08:00)
-    define( 'K_GMT_OFFSET', +5.5 );
+    define( 'K_GMT_OFFSET', +3.0 );
 
     // 3.
     // Define the charset used by your site. If in any doubt, leave the default utf-8.
@@ -88,11 +88,11 @@
 
     // 13.
     // Your Email address. Will be used in contact forms.
-    define( 'K_EMAIL_TO', 'youremail@gmail.com' );
+    define( 'K_EMAIL_TO', 'info@nkemi.co.ke' );
 
     // 14.
     // Will be used as the sender of messages delivered by contact forms to the address above.
-    define( 'K_EMAIL_FROM', 'contact@yourdomain.com' );
+    define( 'K_EMAIL_FROM', 'info@nkemi.co.ke' );
 
     // 15.
     // By default the inbuilt php function 'mail()' is used to deliver messages.
@@ -152,17 +152,17 @@
     // VERY IMPORTANT! 
     // Set the following to '1' ONLY IF YOU HAVE BOUGHT A COMMERCIAL LICENSE for the site you are using this file on.
     // Doing so otherwise is NOT PERMITTED and will constitute a violation of the CPAL license this software is provided under.
-    define( 'K_PAID_LICENSE', 0 );
+    define( 'K_PAID_LICENSE', 1 );
 
         // Rebranding. Uncomment the following defines and add your info.
         // 99a. Company Logo on light background  (Max. 171 x 64 pixels. Needs to be placed within 'couch/theme/images/' folder)
-        //define( 'K_LOGO_LIGHT', 'couch.gif' );
+        define( 'K_LOGO_LIGHT', 'couch.gif' );
 
         // 99b. Company Logo on dark background  (Max. 171 x 64 pixels. Needs to be placed within 'couch/theme/images/' folder)
-        //define( 'K_LOGO_DARK', 'couch_dark.gif' );
+        define( 'K_LOGO_DARK', 'couch_dark.gif' );
 
         // 99c. Footer content (Company name and link)
-        //define( 'K_ADMIN_FOOTER', '<a href="http://www.yourcompany.com">COMPANY NAME</a>' );
+        define( 'K_ADMIN_FOOTER', '<a href="http://www.chaos.co.ke">Studio Chaos</a>' );
 
     // 100.
     // VERY IMPORTANT! 
