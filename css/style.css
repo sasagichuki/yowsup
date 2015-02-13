@@ -16,6 +16,15 @@
 .portfolio > .main_container{
   margin-top: 70px;
 }
+
+video#bgvid{
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background: url("img/hero-image.jpg");
+	background-size: cover;
+}
 /*
 .features-wrapper p {
 	color: #fff;
