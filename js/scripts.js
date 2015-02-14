@@ -39,9 +39,9 @@ $(document).ready(function() {
 
 $(window).load(function() {
 
-	// $('.nav_slide_button').click(function() {
-	// 	$('.pull').slideToggle();
-	// });
+	$('.menu-open').click(function() {
+		$('.top-nav').slideToggle();
+	});
 
 });
 
@@ -56,8 +56,8 @@ $(function() {
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 			if (target.length) {
 				$('html,body').animate({
-					scrollTop: target.offset().top
-				}, 2000);
+					// scrollTop(90) }, 2000);
+					scrollTop: (target.offset().top)-87  }, 2000);
 				return false;
 			}
 		}

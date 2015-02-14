@@ -35,6 +35,7 @@
               <li><a href="#team">Our Team <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
               <li><a href="#contact">Get in Touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
             </ul>
+            <div class="menu-open"></div>
           </nav>
           <section class="hero" id="hero">
             <div class="row">

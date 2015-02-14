@@ -1,31 +1,65 @@
-/* 320px (iPhone) */
-@media screen and (max-width:320px) {
-}
-/* 480px (WVGA - Low End Windows Phone) */
-@media screen and (max-width:480px) {
-	.wrapper { background: #f3f5f8; height: 640px; }
-	.iphone { display: none; }
-	.fluid-white { display: none; }
-	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
-	.legals { text-align: center; margin: 0; padding: 0; }
-	.credit { text-align: center; }
-}
-/* xGA iPad */
-@media screen and (max-width:1024px) {
-	.wp3 { background-position: 50px 0; }
-	.swag { background-attachment: scroll; }
-	.subscribe { background-attachment: scroll; }
-}
-/* 1200px (Small Desktop, Netbook) */
-@media screen and (max-width:1280px) {
-	.wp3 { background-position: 50px 0; }
-}
-/* Bootstrap 990px Breakpoint to 480px */
-@media screen and (min-width:480px) and (max-width:991px) {
-	.iphone { display: none; }
-	.fluid-white { display: none; }
-	.wrapper { background: #f3f5f8; height: 540px; }
-	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
-	.legals { text-align: center; margin: 0; padding: 0; }
-	.credit { text-align: center; }
-}
+@media only screen and (max-width: 960px) {
+  nav .menu-open {
+    visibility: visible;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: red; }
+  nav .top-nav li {
+    width: 100%; }
+    nav .top-nav li a:hover {
+      background: red;
+      padding: 20px; } }
+/* Print Styles */
+/* ==================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group; }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+/*# sourceMappingURL=queries.css.map */
