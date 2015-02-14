@@ -45,6 +45,17 @@
           </nav>
           <section class="hero" id="hero">
             <div class="row">
+            <!-- Navigation -->
+              <div class="col-md-12 text-right navicon">
+                <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+              </div>
+            <!-- Navigation end -->
+            <!-- Logo and tag line -->
+              <div class="logo-pad animated">
+                <img src="img/nkemilogo.png" alt="">
+              </div>
+            <!-- Logo and tag line end-->
+            <div class="overlay-top"></div>
             <!-- video -->
               <video id="bgvid" autoplay loop poster="img/hero-image.jpg">
                     <source src="video/bg.webm" type="video/webm">
@@ -52,21 +63,8 @@
                     <!-- <source src="video/bg.ogv" type="video/ogv"> -->
               </video>
             <!-- video -->
-            <!-- Navigation -->
-              <div class="col-md-12 text-right navicon">
-                <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
-              </div>
-            <!-- Navigation end -->
-            <!-- Logo and tag line -->
-              <div class="col-md-8 col-md-offset-2 text-center inner">
-                <div class="logo-pad animated">
-                  <img src="img/nkemilogo.png" alt="">
-                </div>
-                <cms:editable name='tag_line' type='richtext'>
-                  <h2 class="tagline delay-05s">Ground breaking strategy, World class execution.</h2>
-                </cms:editable>
-              </div>
-            <!-- Logo and tag line end-->
+            
+            
             </div>
           </section>
         </header>
