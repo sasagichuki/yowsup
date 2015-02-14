@@ -1,10 +1,4 @@
 @media only screen and (max-width: 960px) {
-  nav .menu-open {
-    visibility: visible;
-    display: block;
-    height: 50px;
-    width: 50px;
-    background: red; }
   nav .top-nav li {
     width: 100%; }
     nav .top-nav li a:hover {

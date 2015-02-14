@@ -47,9 +47,14 @@ $(window).load(function() {
 
 /***************** Smooth Scrolling ******************/
 
+
 $(function() {
 
 	$('a[href*=#]:not([href=#])').click(function() {
+
+		// Check height of the header
+		var header_height = $('.pull').outerHeight();
+
 		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 
 			var target = $(this.hash);
@@ -57,7 +62,7 @@ $(function() {
 			if (target.length) {
 				$('html,body').animate({
 					// scrollTop(90) }, 2000);
-					scrollTop: (target.offset().top)-87  }, 2000);
+					scrollTop: (target.offset().top) - header_height + 2  }, 2000);
 				return false;
 			}
 		}
