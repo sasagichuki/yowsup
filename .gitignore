@@ -1,1 +1,1 @@
-ignore_work_folder/*
+*.sass-cache/*
