@@ -42,10 +42,10 @@
     define( 'K_DB_NAME', 'madkenya_nkemi' );
     // 5.
     // Database username
-    define( 'K_DB_USER', 'root' );
+    define( 'K_DB_USER', 'madkenya_nkemi' );
     // 6.
     // Database password 
-    define( 'K_DB_PASSWORD', 'root' );
+    define( 'K_DB_PASSWORD', 'nkemip@55w0rd' );
     // 7.
     // MySQL hostname (it will usually be 'localhost' )
     define( 'K_DB_HOST', 'localhost' );
