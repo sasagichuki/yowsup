@@ -33,6 +33,13 @@ $(document).ready(function() {
 	// 	offset: '75%'
 	// });
 
+	 $(".naver.animated").naver({
+          animated: true, // CSS transition
+          label: true , // Display text with mobile handle
+          // labelClosed: "<a href="http:'//'www.jqueryscript.net/tags.php?/Navigation/">Navigation</a>", // Default 'closed' label
+          labelOpen: "Close" // Default 'open' label
+          });
+
 });
 
 /***************** Slide-In Nav ******************/
@@ -72,9 +79,9 @@ $(function() {
 
 /***************** Nav Transformicon ******************/
 
-document.querySelector("#nav-toggle").addEventListener("click", function() {
-	this.classList.toggle("active");
-});
+// document.querySelector("#nav-toggle").addEventListener("click", function() {
+// 	this.classList.toggle("active");
+// });
 
 /***************** Overlays ******************/
 
@@ -110,39 +117,39 @@ $(document).ready(function(){
 
 /***************** Flexsliders ******************/
 
-$(window).load(function() {
+// $(window).load(function() {
 
-	$('#portfolioSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: false,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
+// 	// $('#portfolioSlider').flexslider({
+// 	// 	animation: "slide",
+// 	// 	directionNav: false,
+// 	// 	controlNav: true,
+// 	// 	touch: false,
+// 	// 	pauseOnHover: true,
+// 	// 	start: function() {
+// 	// 		$.waypoints('refresh');
+// 	// 	}
+// 	// });
 
-	$('#servicesSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
+// 	// $('#servicesSlider').flexslider({
+// 	// 	animation: "slide",
+// 	// 	directionNav: false,
+// 	// 	controlNav: true,
+// 	// 	touch: true,
+// 	// 	pauseOnHover: true,
+// 	// 	start: function() {
+// 	// 		$.waypoints('refresh');
+// 	// 	}
+// 	// });
 
-	$('#teamSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
+// 	// $('#teamSlider').flexslider({
+// 	// 	animation: "slide",
+// 	// 	directionNav: false,
+// 	// 	controlNav: true,
+// 	// 	touch: true,
+// 	// 	pauseOnHover: true,
+// 	// 	start: function() {
+// 	// 		$.waypoints('refresh');
+// 	// 	}
+// 	});
 
-});
+// });

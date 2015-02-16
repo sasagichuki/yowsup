@@ -14,6 +14,7 @@
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/queries.css" rel="stylesheet">
         <link href="css/animate.css" rel="stylesheet">
+        <link href="css/jquery.fs.naver.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,7 +25,15 @@
       </head>
       <body id="top">
         <header id="home">
-          <nav class="pull">
+          <!-- <nav class="naver animated">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact us</a>
+            <a href="">Museum</a>
+            <a href="">Something</a>
+          </nav> -->
+
+          <nav class="naver animated pull">
           <div class="logo-pad animated">
                 <img src="img/nkemilogo-small.png" alt="">
               </div>
@@ -458,6 +467,8 @@
         <script src="js/scripts.js"></script>
         <script src="js/jquery.flexslider.js"></script>
         <script src="js/modernizr.js"></script>
+        <script src="js/jquery.fs.naver.js"></script>
+
       </body>
     </html>
     
