@@ -174,7 +174,7 @@
                     <div class="col-md-4 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' type='image' >
+                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-01.jpg" alt="Portfolio Item">
                         </cms:editable>
                           <div class="overlay">
@@ -191,7 +191,7 @@
                     <div class="col-md-4 wp4 delay-05s">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' type='image' >
+                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-02.jpg" alt="Portfolio Item">
                         </cms:editable>
                           <div class="overlay">
@@ -208,7 +208,7 @@
                     <div class="col-md-4 wp4 delay-1s">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' type='image' >
+                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-03.jpg" alt="Portfolio Item">
                         </cms:editable>
                           <div class="overlay">
@@ -227,7 +227,7 @@
                     <div class="col-md-4 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' type='image' >
+                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-01.jpg" alt="Portfolio Item">
                         </cms:editable>
                           <div class="overlay">
@@ -244,7 +244,7 @@
                     <div class="col-md-4 wp4 delay-05s">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' type='image' >
+                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-02.jpg" alt="Portfolio Item">
                         </cms:editable>
                           <div class="overlay">
@@ -261,7 +261,7 @@
                     <div class="col-md-4 wp4 delay-1s">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' type='image' >
+                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-03.jpg" alt="Portfolio Item">
                         </cms:editable>
                           <div class="overlay">
@@ -314,6 +314,7 @@
                         <p>Brand, Marketing & Communication Consultant. I love Africa. She oversees all aspects of the charity’s domestic and international fundraising efforts. She is also responsible for overall brand identity</p>
                         <div class="social">
                           <ul class="social-buttons">
+                            <li><a href="https://twitter.com/nkemic" class="social-btn"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="mailto:caroline@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                             <li><a href="https://twitter.com/JustDes" class="social-btn"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="http://ke.linkedin.com/in/carolinekmbui" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
