@@ -46,9 +46,9 @@ $(document).ready(function() {
 
 $(window).load(function() {
 
-	$('.menu-open').click(function() {
-		$('.top-nav').slideToggle();
-	});
+	// $('.menu-open').click(function() {
+	// 	$('.top-nav').slideToggle();
+	// });
 
 });
 
@@ -60,7 +60,7 @@ $(function() {
 	$('a[href*=#]:not([href=#])').click(function() {
 
 		// Check height of the header
-		var header_height = $('.pull').outerHeight();
+		var header_height = $('.naver').outerHeight();
 
 		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 
@@ -114,6 +114,13 @@ $(document).ready(function(){
         });
     }
 });
+
+// Close the mobile menu on clicking a link
+
+$(".naver a").on("click", function (e) {
+	$(".naver").naver("close");
+});
+
 
 /***************** Flexsliders ******************/
 

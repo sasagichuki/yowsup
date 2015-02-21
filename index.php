@@ -38,7 +38,7 @@
                 <img src="img/nkemilogo-small.png" alt="">
               </div>
             <cms:editable name='main_menu' type='richtext'>
-            <ul class="top-nav">
+            <ul role="navigation" class="top-nav">
               <li><a href="#intro">About Nkemi <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
               <li><a href="#features">What we do <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
               <li><a href="#portfolio">Portfolio <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
