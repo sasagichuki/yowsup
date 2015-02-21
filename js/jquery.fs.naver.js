@@ -21,8 +21,8 @@
 		customClass: "",
 		label: true,
 		labels: {
-			closed: "Navigation",
-			open: "Close"
+			closed: "",
+			open: ""
 		},
 		maxWidth: "980px"
 	};

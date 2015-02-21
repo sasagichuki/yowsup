@@ -77,7 +77,10 @@
               <div class="col-md-8 col-md-offset-2 wp1">
                 <h1 class="arrow">In a nutshell</h1>
                 <p class="">
-                Nkemi is an African for Africa marketing consulting agency whose philosophy is entrenched in understanding client needs, deep understanding of the customer and working together with the client to deliver growth expectations.</p>
+                  Nkemi is the new brand & marketing consulting firm for Africa; providing fresh strategic thinking & practical execution 
+                  support for clients across industries. Nkemi consultants work collaboratively with clients to define strategic pillars 
+                  with specific metrics of success to enable continuous delivery of business goals. At the heart of Nkemi's expertise is 
+                  Brand Management and Marketing Management with a team that has real on-ground African experience..</p>
               </div>
               </cms:editable>
             </div>
@@ -97,8 +100,10 @@
                     </div>
                     <cms:editable name='section_content_1' type='richtext'>
                     <h2>Brand strategy and planning</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p>
+                    <p>We work with you to define your brand and how it will be perceived in the market place. We will work on both the 
+                    tangible and intangible qualities of the brand through: 1. developing your visual and verbal identity 2. developing 
+                    your brand positioning including differentiators, core drivers, values, personality, essence, expression 3. writing
+                     your positioning statement and key consumer insight.</p>
                     </cms:editable>
                   </div>
                   <div class="col-md-4 wp2 delay-05s">
@@ -106,9 +111,9 @@
                       <i class="fa fa-code shadow"></i>
                     </div>
                     <cms:editable name='section_content_2' type='richtext'>
-                    <h2>Brand strategy and planning</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p>
+                    <h2>Marketing strategy and planning</h2>
+                    <p>Our goal for marketing is to drive sales and maintain competitive advantage through well thought out programmes 
+                    that connect and engage with clients' markets. We use a very detailed process of insight gathering, consumer defi.</p>
                     </cms:editable>
                   </div>
                   <div class="col-md-4 wp2 delay-1s">
@@ -116,9 +121,9 @@
                       <i class="fa fa-heart shadow"></i>
                     </div>
                     <cms:editable name='section_content_3' type='richtext'>
-                    <h2>Brand strategy and planning</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p>
+                    <h2>Media strategy and planning</h2>
+                    <p>Our goal for marketing is to drive sales and maintain competitive advantage through well thought out programmes 
+                    that connect and engage with clients' markets. We use a very detailed process of insight gathering, consumer defi.</p>
                     </cms:editable>
                   </div>
                   <div class="clearfix"></div>
@@ -193,8 +198,10 @@
                         </div>
                       </div>
                       <cms:editable name='portfolio_1' type='richtext'>
-                      <h2>Creative Minds</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      <h2>Simba Corp</h2>
+                      <p>Simba Corporation was estabished 46 years ago as a used car dealer and has now grown and evolved into one of Kenya's leading 
+                      indigenous conglomerates operating in transport, hospitality, realty, agriculture and power. Nkemi is working with the motor 
+                      division to deliver marketing strategies and plans for their Mitsubishi, Mahindra, Renault, BMW, Geely, AVIS and Leasing brands.</p>
                       </cms:editable>
                     </div>
                     <div class="col-md-4 wp4 delay-05s">
@@ -210,8 +217,11 @@
                         </div>
                       </div>
                       <cms:editable name='portfolio_2' type='richtext'>
-                      <h2>Creative Hearts</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      <h2>Mac Cosmetics</h2>
+                      <p>A global leader in cosmetics manufacturing headquartered in NY. Nkemi worked with their South African partner, Estee Lauder 
+                      Company to launch MAC Cosmetics into the East African market through their first store in Nairobi. Nkemi's role was delivering 
+                      Public Relations solutions for the launch including media relations, influencer relations, event invitations management and 
+                      digital content generation.</p>
                       </cms:editable>
                     </div>
                     <div class="col-md-4 wp4 delay-1s">
@@ -227,8 +237,11 @@
                         </div>
                       </div>
                       <cms:editable name='portfolio_3' type='richtext'>
-                      <h2>Creative Ideas</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      <h2>AMG realtors</h2>
+                      <p>AMG Realtors is a consumer oriented property firm geared to the ultimate provision of property and land value. 
+                      AMG deals in land in various parts of Kenya including Nanyuki, Lukenya, Kisaju, Kajiado and Isinya offering fully 
+                      serviced plot in controlled developments and regular plots. Nkemi works with AMG in Brand planning, Marketing strategy & 
+                      planning and Media strategy & planning.</p>
                       </cms:editable>
                     </div>
                   </li>
