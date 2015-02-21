@@ -86,33 +86,33 @@ $(function() {
 /***************** Overlays ******************/
 
 $(document).ready(function(){
-    if (Modernizr.touch) {
-        // show the close overlay button
-        $(".close-overlay").removeClass("hidden");
-        // handle the adding of hover class when clicked
-        $(".img").click(function(e){
-            if (!$(this).hasClass("hover")) {
-                $(this).addClass("hover");
-            }
-        });
-        // handle the closing of the overlay
-        $(".close-overlay").click(function(e){
-            e.preventDefault();
-            e.stopPropagation();
-            if ($(this).closest(".img").hasClass("hover")) {
-                $(this).closest(".img").removeClass("hover");
-            }
-        });
-    } else {
-        // handle the mouseenter functionality
-        $(".img").mouseenter(function(){
-            $(this).addClass("hover");
-        })
-        // handle the mouseleave functionality
-        .mouseleave(function(){
-            $(this).removeClass("hover");
-        });
-    }
+    // if (Modernizr.touch) {
+    //     // show the close overlay button
+    //     $(".close-overlay").removeClass("hidden");
+    //     // handle the adding of hover class when clicked
+    //     $(".img").click(function(e){
+    //         if (!$(this).hasClass("hover")) {
+    //             $(this).addClass("hover");
+    //         }
+    //     });
+    //     // handle the closing of the overlay
+    //     $(".close-overlay").click(function(e){
+    //         e.preventDefault();
+    //         e.stopPropagation();
+    //         if ($(this).closest(".img").hasClass("hover")) {
+    //             $(this).closest(".img").removeClass("hover");
+    //         }
+    //     });
+    // } else {
+    //     // handle the mouseenter functionality
+    //     $(".img").mouseenter(function(){
+    //         $(this).addClass("hover");
+    //     })
+    //     // handle the mouseleave functionality
+    //     .mouseleave(function(){
+    //         $(this).removeClass("hover");
+    //     });
+    // }
 });
 
 // Close the mobile menu on clicking a link
@@ -126,16 +126,16 @@ $(".naver a").on("click", function (e) {
 
 // $(window).load(function() {
 
-// 	// $('#portfolioSlider').flexslider({
-// 	// 	animation: "slide",
-// 	// 	directionNav: false,
-// 	// 	controlNav: true,
-// 	// 	touch: false,
-// 	// 	pauseOnHover: true,
-// 	// 	start: function() {
-// 	// 		$.waypoints('refresh');
-// 	// 	}
-// 	// });
+	$('#portfolioSlider').flexslider({
+		animation: "slide",
+		directionNav: false,
+		controlNav: true,
+		touch: false,
+		pauseOnHover: true
+		// start: function() {
+		// 	$.waypoints('refresh');
+		// }
+	});
 
 // 	// $('#servicesSlider').flexslider({
 // 	// 	animation: "slide",
@@ -148,15 +148,15 @@ $(".naver a").on("click", function (e) {
 // 	// 	}
 // 	// });
 
-// 	// $('#teamSlider').flexslider({
-// 	// 	animation: "slide",
-// 	// 	directionNav: false,
-// 	// 	controlNav: true,
-// 	// 	touch: true,
-// 	// 	pauseOnHover: true,
-// 	// 	start: function() {
-// 	// 		$.waypoints('refresh');
-// 	// 	}
-// 	});
+	$('#teamSlider').flexslider({
+		animation: "slide",
+		directionNav: false,
+		controlNav: true,
+		touch: true,
+		pauseOnHover: true
+		// start: function() {
+		// 	$.waypoints('refresh');
+		// }
+	});
 
 // });

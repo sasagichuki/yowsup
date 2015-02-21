@@ -1,9 +1,6 @@
 @media only screen and (max-width: 960px) {
   nav .top-nav li {
-    width: 100%; }
-    nav .top-nav li a:hover {
-      background: red;
-      padding: 20px; } }
+    width: 100%; } }
 /* Print Styles */
 /* ==================================================== */
 @media print {

@@ -1,3 +1,9 @@
+body {
+  margin-right: -16px; }
+
+::-webkit-scrollbar {
+  display: none; }
+
 .under {
   background-color: #e8694b;
   text-align: center;
@@ -10,7 +16,8 @@
   margin-top: 70px; }
 
 section#hero.hero {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   section#hero.hero .tag-line {
     position: absolute;
     top: 50px;
