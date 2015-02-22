@@ -1,6 +1,9 @@
 body {
   margin-right: -16px; }
 
+a:focus {
+  outline: 0; }
+
 ::-webkit-scrollbar {
   display: none; }
 
