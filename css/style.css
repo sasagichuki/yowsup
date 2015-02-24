@@ -95,4 +95,16 @@ nav {
 .section-padding {
   padding: 50px 0px 50px; }
 
+.img:hover img {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(-40px, 0, 0);
+  background-color: red; }
+
+.effects .img {
+  margin-bottom: 27px; }
+
+#portfolioSlider p {
+  margin-bottom: 2rem; }
+
 /*# sourceMappingURL=style.css.map */

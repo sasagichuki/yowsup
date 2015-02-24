@@ -192,10 +192,10 @@
                         <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-01.jpg" alt="Portfolio Item">
                         </cms:editable>
-                          <div class="overlay">
+                          <!-- <div class="overlay">
                             <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
                             <a class="close-overlay hidden">x</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                       <cms:editable name='portfolio_1' type='richtext'>
@@ -211,10 +211,10 @@
                         <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-02.jpg" alt="Portfolio Item">
                         </cms:editable>
-                          <div class="overlay">
+                          <!-- <div class="overlay">
                             <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
                             <a class="close-overlay hidden">x</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                       <cms:editable name='portfolio_2' type='richtext'>
@@ -231,10 +231,10 @@
                         <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-03.jpg" alt="Portfolio Item">
                         </cms:editable>
-                          <div class="overlay">
+                          <!-- <div class="overlay">
                             <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
                             <a class="close-overlay hidden">x</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                       <cms:editable name='portfolio_3' type='richtext'>
@@ -253,10 +253,10 @@
                         <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-01.jpg" alt="Portfolio Item">
                         </cms:editable>
-                          <div class="overlay">
+                          <!-- <div class="overlay">
                             <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
                             <a class="close-overlay hidden">x</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                       <cms:editable name='portfolio_4' type='richtext'>
@@ -270,10 +270,10 @@
                         <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-02.jpg" alt="Portfolio Item">
                         </cms:editable>
-                          <div class="overlay">
+                          <!-- <div class="overlay">
                             <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
                             <a class="close-overlay hidden">x</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                       <cms:editable name='portfolio_5' type='richtext'>
@@ -287,10 +287,10 @@
                         <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-03.jpg" alt="Portfolio Item">
                         </cms:editable>
-                          <div class="overlay">
+                          <!-- <div class="overlay">
                             <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
                             <a class="close-overlay hidden">x</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                       <cms:editable name='portfolio_6' type='richtext'>
