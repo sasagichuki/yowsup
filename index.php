@@ -36,7 +36,7 @@
 
           <nav class="naver animated pull">
           <div class="logo-pad animated">
-                <img src="img/nkemilogo-small.png" alt="">
+                <a href="#intro"><img src="img/nkemilogo-small.png" alt=""></a>
               </div>
             <cms:editable name='main_menu' type='richtext'>
             <ul role="navigation" class="top-nav">
@@ -50,25 +50,7 @@
             <div class="menu-open"></div>
           </nav>
           <section class="hero" id="hero">
-            <div class="row">
-              <!-- Navigation -->
-              <!-- <div class="col-md-12 text-right navicon">
-                <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
-              </div> -->
-              <!-- Navigation end -->
-              <!-- Logo and tag line -->
-              <!-- Logo and tag line end-->
-              <div class="overlay-top"></div>
-              <!-- video -->
-              <video id="bgvid" autoplay loop poster="img/hero-image.jpg">
-                <source src="video/bg.webm" type="video/webm">
-                <source src="video/bg.mp4" type="video/mp4">
-                <!-- <source src="video/bg.ogv" type="video/ogv"> -->
-              </video>
-              <!-- video -->
-              
-              
-            </div>
+                <img src="img/hero.jpg" alt="">
           </section>
         </header>
         <section class="intro text-center section-padding " id="intro">

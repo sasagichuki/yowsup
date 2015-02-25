@@ -1,5 +1,5 @@
 body{
-	margin-right: -16px;
+	// margin-right: -16px;
 }
 
 // Remove dotted outline on firefox
@@ -32,7 +32,7 @@ a:focus {
 
 section#hero.hero {
 	position: relative;
-	overflow: hidden;
+	// overflow: hidden;
 
 	// .navicon{
 	// 	position: fixed;
@@ -40,6 +40,10 @@ section#hero.hero {
 	// 	right: 30px;
 	// 	z-index: 9998;
 	// }
+
+	img{
+		min-width: 100%;
+	}
 	
 	.tag-line{
 		position: absolute;
