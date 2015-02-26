@@ -36,7 +36,7 @@
 
           <nav class="naver animated pull">
           <div class="logo-pad animated">
-                <a href="#intro"><img src="img/nkemilogo-small.png" alt=""></a>
+                <a href="#hero"><img src="img/nkemilogo-small.png" alt=""></a>
               </div>
             <cms:editable name='main_menu' type='richtext'>
             <ul role="navigation" class="top-nav">
@@ -190,9 +190,7 @@
                     <div class="col-md-4 wp4 delay-05s">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                        <cms:editable name='portfolio_image' label='Image' desc='Upload a portfolio image here 720X400' width='720' height='400' type='image' >
                           <img src="img/portfolio-02.jpg" alt="Portfolio Item">
-                        </cms:editable>
                           <!-- <div class="overlay">
                             <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
                             <a class="close-overlay hidden">x</a>
