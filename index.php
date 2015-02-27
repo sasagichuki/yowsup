@@ -10,7 +10,7 @@
     <title>Nkemi Consulting</title>
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
       <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
       <link href="css/flexslider.css" rel="stylesheet" >
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/queries.css" rel="stylesheet">
@@ -79,7 +79,7 @@
                 <div class="features-wrapper">
                   <div class="col-md-4 wp2">
                     <div class="icon">
-                      <i class="fa fa-laptop shadow"></i>
+                      <i class="fa fa-magic shadow"></i>
                     </div>
                     <cms:editable name='section_content_1' type='richtext'>
                     <h2>Brand strategy and planning</h2>
@@ -91,7 +91,7 @@
                   </div>
                   <div class="col-md-4 wp2 delay-05s">
                     <div class="icon">
-                      <i class="fa fa-code shadow"></i>
+                      <i class="fa fa-line-chart shadow"></i>
                     </div>
                     <cms:editable name='section_content_2' type='richtext'>
                     <h2>Marketing strategy and planning</h2>
@@ -101,7 +101,7 @@
                   </div>
                   <div class="col-md-4 wp2 delay-1s">
                     <div class="icon">
-                      <i class="fa fa-heart shadow"></i>
+                      <i class="fa fa-cogs shadow"></i>
                     </div>
                     <cms:editable name='section_content_3' type='richtext'>
                     <h2>Media strategy and planning</h2>
