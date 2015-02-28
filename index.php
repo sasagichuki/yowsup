@@ -320,7 +320,7 @@
                         <p>Before joining the pharmaceutical industry, he worked as a Head of Medical Quality in a Health Maintenance Organization where he also practiced as a General Practitioner.</p>
                         <div class="social">
                           <ul class="social-buttons">
-                            <li><a href="mailto:caroline@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="mailto:githinji@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                             <li><a href="https://twitter.com/JustDes" class="social-btn"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="http://ke.linkedin.com/in/carolinekmbui" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
                           </ul>
@@ -333,7 +333,7 @@
                         <p>She oversees the charity’s mission and day-to-day operations after almost twenty years in operational roles, bringing a vast network and experiences to the team..</p>
                         <div class="social">
                           <ul class="social-buttons">
-                            <li><a href="mailto:caroline@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="mailto:melissa@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                             <li><a href="https://twitter.com/JustDes" class="social-btn"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="http://ke.linkedin.com/in/carolinekmbui" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
                           </ul>
@@ -350,7 +350,7 @@
                         .</p>
                         <div class="social">
                           <ul class="social-buttons">
-                            <li><a href="mailto:caroline@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="mailto:ali@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                             <li><a href="https://twitter.com/JustDes" class="social-btn"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="http://ke.linkedin.com/in/carolinekmbui" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
                           </ul>
@@ -363,7 +363,7 @@
                         <p>Mark's key strengths are strategic thinking, team work and ability to think on his feet. He previously worked for Mayfair insurance company as a marketing executive. He holds a Bachelor’s Degree in Commerce – Marketing option & is currently pursuing his Chartered Institute of Marketing (CIM) professional qualification.</p>
                         <div class="social">
                           <ul class="social-buttons">
-                            <li><a href="mailto:caroline@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="mailto:mark@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                             <li><a href="https://twitter.com/JustDes" class="social-btn"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="http://ke.linkedin.com/in/carolinekmbui" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
                           </ul>
