@@ -118,4 +118,7 @@ img.color_flip:hover {
   filter: none;
   -webkit-filter: grayscale(0); }
 
+.social .social-buttons ul {
+  padding: 0px; }
+
 /*# sourceMappingURL=style.css.map */
