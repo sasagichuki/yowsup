@@ -14,3 +14,13 @@ ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 1 month"
 </IfModule>
 ## EXPIRES CACHING ##
+
+## Firefox FontAwesome CORS fix
+
+<FilesMatch ".(ttf|otf|eot|woff)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>
+
+## Firefox FontAwesome CORS fix
