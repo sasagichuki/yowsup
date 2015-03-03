@@ -425,7 +425,7 @@
                 <ul class="social-buttons">
                   <li><a href="https://www.facebook.com/pages/Nkemi-Consulting/1542642302637883?fref=nf" class="social-btn"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="https://twitter.com/nkemic" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                  <!-- <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li> -->
+                  <li><a href="https://instagram.com/nkemiconsulting" class="social-btn"><i class="fa fa-instagram"></i></a></li>
                 </ul>
               </div>
             </div>
