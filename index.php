@@ -415,7 +415,7 @@
               <div class="col-md-4">
                 <div class="light-box box-hover">
                   <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p><a href="#">info@nkemi.co.ke</a></p>
+                  <p><a href="mailto:caroline@nkemi.co.ke?subject=Great Website">caroline@nkemi.co.ke</a></p>
                 </div>
               </div>
             </div>
@@ -423,6 +423,7 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="social-buttons">
+                  <li><a href="mailto:caroline@nkemi.co.ke?subject=Great Website" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                   <li><a href="https://www.facebook.com/pages/Nkemi-Consulting/1542642302637883?fref=nf" class="social-btn"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="https://twitter.com/nkemic" class="social-btn"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="https://instagram.com/nkemiconsulting" class="social-btn"><i class="fa fa-instagram"></i></a></li>
