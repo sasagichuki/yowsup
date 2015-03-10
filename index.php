@@ -65,6 +65,7 @@
               <li><a href="#features">What we do <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
               <li><a href="#portfolio">Portfolio <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
               <li><a href="#team">Our Team <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+              <li><a href="blog/">Blog <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
               <li><a href="#contact">Get in Touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
             </ul>
             </cms:editable>
