@@ -16,7 +16,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'nkemi_blog');
+define('DB_NAME', 'madkenya_nkemi_blog');
 
 /** MySQL database username */
 define('DB_USER', 'madkenya_nkemi');
